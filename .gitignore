@@ -1,0 +1,17 @@
+__pycache__
+
+# IDE files
+.idea/
+*.pyc
+.vscode/
+
+*.pth
+
+Thumbs.db
+
+*.jpg
+*.jpeg
+*.png
+*.heif
+
+sky_detection_venv/
