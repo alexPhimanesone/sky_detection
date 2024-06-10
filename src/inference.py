@@ -14,7 +14,11 @@ checkpoint_path = opj(data_dir, "model.pth")
 
 def inference(calibration_path, img_path):
     """
-    Return a torch tensor of shape (1, H, W)
+    Args:
+    - calibration_path: path of output of fisheye_to_equirectangular_v3/import_camera_intrinsic_function.py
+    - img_path: path of the input image
+    Returns:
+    - a torch tensor of shape (1, H, W)
     """
     
     # Initiate the model
