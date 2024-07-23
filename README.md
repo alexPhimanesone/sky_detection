@@ -25,8 +25,9 @@ mim install mmengine==0.10.3
 mim install mmcv==2.1.0
 pip install mmsegmentation==1.2.2
 pip install -r <path_to_fisheye_to_equirectangular_requirements>
+pip install ftfy
 ```
+mmcv installation might require the installation of Microsoft Visual C++ 14 (or more recent)
 
 ### Step 4: Create the data folder and add the model
-Créer un dossier data dans le répertoire racine
-Y ajouter model.pth
+Create a folder 'data' in the root folder and then add model.pth into it.
